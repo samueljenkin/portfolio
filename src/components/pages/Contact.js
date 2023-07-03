@@ -44,7 +44,15 @@ const Contact = () => {
 
   if (submitted) {
     return (
-      <Card style={{ maxWidth: 450, margin: '0 auto', padding: '20px 5px', marginTop: '3.5rem' }}>
+      <Card
+        style={{
+          maxWidth: 450,
+          margin: '0 auto',
+          padding: '20px 5px',
+          marginTop: '3.5rem',
+          boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.5)'
+        }}
+      >
         <CardContent sx={{ marginBottom: 0 }}>
           <Typography gutterBottom variant='h3' sx={{ textAlign: 'center', marginBottom: '2rem' }}>Submitted!</Typography>
           <Typography color='textSecondary' variant="body2" component='p'>
@@ -65,7 +73,15 @@ const Contact = () => {
 
   return (
     <>
-      <Card style={{ maxWidth: 450, margin: '0 auto', padding: '20px 5px', marginTop: '3.5rem' }}>
+      <Card
+        style={{
+          maxWidth: 450,
+          margin: '0 auto',
+          padding: '20px 5px',
+          marginTop: '3.5rem',
+          boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.5)'
+        }}
+      >
         <CardContent>
           <Typography gutterBottom variant='h3' sx={{ textAlign: 'center' }}>Contact Me</Typography>
           <Typography color='textSecondary' variant="body2" component='p' sx={{ textAlign: 'center', marginBottom: '1rem' }}>
