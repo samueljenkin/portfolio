@@ -7,13 +7,13 @@ import Stack from '@mui/material/Stack';
 import LaunchIcon from '@mui/icons-material/Launch';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import DefaultLayout from "../layout/DefaultLayout";
-import Me from '../images/Me.jpg'
+import Me from '../../images/Me.jpg'
 import './Home.css'
 
 const links = [
   { name: 'LinkedIn', path: 'https://www.linkedin.com/in/samueljenkin/' },
   { name: 'GitHub', path: 'https://github.com/samueljenkin' },
-  { name: 'Resume', path: 'https://drive.google.com/file/d/13xyDO7_Ue9tjXBjsPOwtO6VgUieJ9RAR/view?usp=sharing' }
+  { name: 'Resume', path: 'https://drive.google.com/file/d/1wjqQnmJhJuEjWnP36v38MJYWh3wQJ7r1/view?usp=sharing' }
 ];
 
 const Home = () => {
@@ -27,7 +27,7 @@ const Home = () => {
           <h2>Full Stack Software Engineer</h2>
         </section>
 
-        <section className="image">
+        <section className="me">
           <img src={Me} alt="Sam Jenkin" />
         </section>
 

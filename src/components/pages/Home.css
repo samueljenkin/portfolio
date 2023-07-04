@@ -2,17 +2,17 @@
   text-align: center;
 }
 
-h1 {
+.title h1 {
   font-size: 3rem;
   margin-bottom: 0;
 }
 
-h2 {
+.title h2 {
   font-size: 2rem;
   margin: 1rem auto 0;
 }
 
-img {
+.me img {
   max-height: 300px;
   border-radius: 150px;
   margin: 2rem auto;

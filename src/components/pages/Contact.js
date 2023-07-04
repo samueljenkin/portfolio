@@ -28,7 +28,7 @@ const Contact = () => {
       },
       body: JSON.stringify(data),
     })
-      .then((response) => {
+      .then(response => {
         if (!response.ok) {
           throw new Error('Form response was not ok');
         }
@@ -36,7 +36,7 @@ const Contact = () => {
         setSender(data.name)
         setSubmitted(true);
       })
-      .catch((err) => {
+      .catch(err => {
         // Submit the form manually
         e.target.submit();
       });
