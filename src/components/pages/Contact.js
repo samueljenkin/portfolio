@@ -47,7 +47,9 @@ const Contact = () => {
     return (
       <DefaultLayout>
         <section className="card">
-          <h2>Submitted!</h2>
+          <section className="submitted-heading">
+            <h1>Submitted!</h1>
+          </section>
           <p>
             Dear {sender},
             <br /><br />
@@ -105,7 +107,7 @@ const Contact = () => {
           <Button 
             type="submit" 
             variant='contained' 
-            color='primary' 
+            sx={{ backgroundColor: '#156064' }}
             fullWidth
           >
             Submit

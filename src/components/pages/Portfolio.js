@@ -26,7 +26,7 @@ const Portfolio = () => {
           <section className="buttons">
             <Button
               fullWidth
-              sx={{ marginRight: '1rem' }}
+              sx={{ marginRight: '1rem', backgroundColor: '#156064' }}
               variant="contained"
               endIcon={<LaunchIcon />}
               onClick={() => openLink('https://github.com/samueljenkin/TripWise')}
@@ -38,6 +38,7 @@ const Portfolio = () => {
               variant="contained"
               endIcon={<LaunchIcon />}
               onClick={() => openLink('https://holiday-app.onrender.com')}
+              sx={{ backgroundColor: '#156064' }}
             >
               Live Site
             </Button>
@@ -58,7 +59,7 @@ const Portfolio = () => {
           <section className="buttons">
             <Button
               fullWidth
-              sx={{ marginRight: '1rem' }}
+              sx={{ marginRight: '1rem', backgroundColor: '#156064' }}
               variant="contained"
               endIcon={<LaunchIcon />}
               onClick={() => openLink('https://github.com/samueljenkin/Brain_Busters')}
@@ -70,6 +71,7 @@ const Portfolio = () => {
               variant="contained"
               endIcon={<LaunchIcon />}
               onClick={() => openLink('https://quiz-app-zshl.onrender.com')}
+              sx={{ backgroundColor: '#156064' }}
             >
               Live Site
             </Button>
@@ -90,7 +92,7 @@ const Portfolio = () => {
           <section className="buttons">
             <Button
               fullWidth
-              sx={{ marginRight: '1rem' }}
+              sx={{ marginRight: '1rem', backgroundColor: '#156064' }}
               variant="contained"
               endIcon={<LaunchIcon />}
               onClick={() => openLink('https://github.com/samueljenkin/CareerHive')}
@@ -102,6 +104,7 @@ const Portfolio = () => {
               variant="contained"
               endIcon={<LaunchIcon />}
               onClick={() => openLink('https://careerhive-6o23.onrender.com')}
+              sx={{ backgroundColor: '#156064' }}
             >
               Live Site
             </Button>
@@ -120,7 +123,7 @@ const Portfolio = () => {
           <section className="buttons">
             <Button
               fullWidth
-              sx={{ marginRight: '1rem' }}
+              sx={{ marginRight: '1rem', backgroundColor: '#156064' }}
               variant="contained"
               endIcon={<LaunchIcon />}
               onClick={() => openLink('https://github.com/samueljenkin/Tic-Tac-Toe')}
@@ -132,6 +135,7 @@ const Portfolio = () => {
               variant="contained"
               endIcon={<LaunchIcon />}
               onClick={() => openLink('https://samueljenkin.github.io/Tic-Tac-Toe/')}
+              sx={{ backgroundColor: '#156064' }}
             >
               Live Site
             </Button>

@@ -5,6 +5,7 @@
   width: 80%;
   min-width: 400px;
   max-width: 650px;
+  margin-top: 3rem;
 }
 
 .contact-heading {
@@ -14,6 +15,12 @@
 .contact-heading h1 {
   font-size: 2rem;
   margin: 0 auto;
+}
+
+.submitted-heading h1 {
+  font-size: 2rem;
+  margin: 0 auto 2rem;
+  text-align: center;
 }
 
 form {

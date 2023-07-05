@@ -36,7 +36,7 @@ function NavBar() {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{ backgroundColor: '#156064' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
@@ -47,7 +47,7 @@ function NavBar() {
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
+              fontFamily: 'Exo',
               fontWeight: 700,
               letterSpacing: '.3rem',
               color: 'inherit',
@@ -62,19 +62,20 @@ function NavBar() {
             variant="h5"
             noWrap
             component="a"
-            href=""
+            onClick={handleClick}
             sx={{
               mr: 2,
               display: { xs: 'flex', md: 'none' },
               flexGrow: 1,
-              fontFamily: 'monospace',
+              fontFamily: 'Exo',
               fontWeight: 700,
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
               justifyContent: 'center',
               marginRight: 0,
-              marginLeft: '48px'
+              marginLeft: '48px',
+              cursor: 'pointer'
             }}
           >
             Sam Jenkin
@@ -116,7 +117,7 @@ function NavBar() {
                   component={Link}
                   to={page.path}
                 >
-                  <Typography textAlign="center">{page.name}</Typography>
+                  <Typography textAlign="center" sx={{ fontFamily: 'Rokkitt' }}>{page.name}</Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -127,7 +128,7 @@ function NavBar() {
               <Button
                 key={page.name}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, color: 'white', display: 'block', fontFamily: 'Rokkitt' }}
                 component={Link}
                 to={page.path}
               >

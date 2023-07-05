@@ -38,6 +38,7 @@ const Home = () => {
               variant="contained"
               endIcon={<LaunchIcon />}
               onClick={() => openLink(link.path)}
+              sx={{ backgroundColor: '#156064' }}
             >
               {link.name}
             </Button>
@@ -49,6 +50,7 @@ const Home = () => {
             variant="contained"
             component={Link}
             to='/contact'
+            sx={{ backgroundColor: '#156064' }}
           >
             Get in touch!
           </Button>
