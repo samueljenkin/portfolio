@@ -17,7 +17,9 @@ import TripWise from './images/projectPreviews/TripWise.png'
 
 // objects
 const skillSet = { HTML5, CSS, JavaScript, PostgreSQL, Python, Node, React, Flask, GitHub }
+const skillSetNames = Object.keys(skillSet)
+
 const projectPreviews = { TicTacToe, CareerHive, BrainBusters, TripWise }
 
 // export
-export { skillSet, projectPreviews }
+export { skillSet, skillSetNames, projectPreviews }

@@ -7,7 +7,7 @@ import Stack from '@mui/material/Stack';
 import LaunchIcon from '@mui/icons-material/Launch';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import DefaultLayout from "../layout/DefaultLayout";
-import Me from '../../images/Me.jpg'
+import headshot from '../../images/me/headshot.jpg'
 import './Home.css'
 
 const links = [
@@ -28,7 +28,7 @@ const Home = () => {
         </section>
 
         <section className="me">
-          <img src={Me} alt="Sam Jenkin" />
+          <img src={headshot} alt="Sam Jenkin" />
         </section>
 
         <section className="links">
