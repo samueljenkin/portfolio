@@ -72,6 +72,7 @@ const Contact = () => {
         <section className="contact-heading">
           <h1>Contact Me</h1>
           <p>I will get back to you as soon as I can!</p>
+          <p>Alternatively, you can reach me via email at: <a href="mailto:samueltjenkin@gmail.com">samueltjenkin@gmail.com</a></p>
         </section>
         
         <form
@@ -107,7 +108,12 @@ const Contact = () => {
           <Button 
             type="submit" 
             variant='contained' 
-            sx={{ backgroundColor: '#156064' }}
+            sx={{
+              backgroundColor: '#156064',
+              '&:hover': {
+                backgroundColor: '#A167A5'
+              }
+            }}
             fullWidth
           >
             Submit

@@ -13,7 +13,8 @@ import './Home.css'
 const links = [
   { name: 'LinkedIn', path: 'https://www.linkedin.com/in/samueljenkin/' },
   { name: 'GitHub', path: 'https://github.com/samueljenkin' },
-  { name: 'Resume', path: 'https://drive.google.com/file/d/1wjqQnmJhJuEjWnP36v38MJYWh3wQJ7r1/view?usp=sharing' }
+  { name: 'Resume', path: 'https://drive.google.com/file/d/1Aw7vwVpDUclKyeNRPqnt6jeN2R0fWam8/view?usp=sharing' },
+  { name: 'Video Profile', path: 'https://www.youtube.com/watch?v=ZKfU_1qYeso'}
 ];
 
 const Home = () => {
@@ -38,7 +39,12 @@ const Home = () => {
               variant="contained"
               endIcon={<LaunchIcon />}
               onClick={() => openLink(link.path)}
-              sx={{ backgroundColor: '#156064' }}
+              sx={{
+                backgroundColor: '#156064',
+                '&:hover': {
+                  backgroundColor: '#A167A5'
+                }
+              }}
             >
               {link.name}
             </Button>
@@ -50,7 +56,12 @@ const Home = () => {
             variant="contained"
             component={Link}
             to='/contact'
-            sx={{ backgroundColor: '#156064' }}
+            sx={{
+              backgroundColor: '#156064',
+              '&:hover': {
+                backgroundColor: '#A167A5'
+              }
+            }}
           >
             Get in touch!
           </Button>

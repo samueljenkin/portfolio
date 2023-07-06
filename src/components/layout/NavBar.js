@@ -15,10 +15,10 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 
 const pages = [
-  { name: 'Home', path: '/' },
-  { name: 'About', path: '/about' },
-  { name: 'Portfolio', path: '/portfolio' },
-  { name: 'Contact', path: '/contact'}
+  { name: 'Home', path: '/portfolio/' },
+  { name: 'About', path: '/portfolio/about' },
+  { name: 'Portfolio', path: '/portfolio/portfolio' },
+  { name: 'Contact', path: '/portfolio/contact'}
 ];
 
 function NavBar() {
