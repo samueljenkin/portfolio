@@ -23,7 +23,7 @@ const pages = [
 
 function NavBar() {
   const navigate = useNavigate()
-  const handleClick = () => navigate('/')
+  const handleClick = () => navigate('/portfolio/')
 
   const [anchorElNav, setAnchorElNav] = useState(null);
 
