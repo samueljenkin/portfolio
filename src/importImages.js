@@ -10,6 +10,7 @@ import Flask from './images/skillSetLogos/Flask.png'
 import GitHub from './images/skillSetLogos/GitHub.png'
 import Express from './images/skillSetLogos/Express.png'
 import VSCode from './images/skillSetLogos/VSCode.png'
+import Git from './images/skillSetLogos/Git.png'
 
 // projectPreviews
 import TicTacToe from './images/projectPreviews/Tic-Tac-Toe.png'
@@ -29,6 +30,7 @@ const skillSet = {
   React, 
   Flask, 
   GitHub, 
+  Git,
   'VS Code': VSCode 
 }
 const skillSetNames = Object.keys(skillSet)
