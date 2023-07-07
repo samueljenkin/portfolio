@@ -36,10 +36,12 @@
 }
 
 .skills {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
-  gap: 3rem;
+  display: flex;
+  gap: 1rem 6rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 
 .skill {
   display: flex;
@@ -47,6 +49,8 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  width: 50px;
+  white-space: nowrap;
 }
 
 .skill img {

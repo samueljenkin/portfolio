@@ -19,7 +19,8 @@ const Portfolio = () => {
             <img src={skillSet.CSS} alt="CSS" />
             <img src={skillSet.JavaScript} alt="JavaScript" />
             <img src={skillSet.PostgreSQL} alt="PostgreSQL" />
-            <img src={skillSet.Node} alt="Node" />
+            <img src={skillSet['Node.js']} alt="Node.js" />
+            <img src={skillSet['Express.js']} alt="Express.js" />
             <img src={skillSet.React} alt="React" />
           </section>
           <p>Discover attractions based on your location, time, and budget with TripWise. Effortlessly view and organise your saved trips for a memorable holiday experience. It's the perfect app for a budget-friendly and exciting getaway.</p>
@@ -64,7 +65,8 @@ const Portfolio = () => {
             <img src={skillSet.CSS} alt="CSS" />
             <img src={skillSet.JavaScript} alt="JavaScript" />
             <img src={skillSet.PostgreSQL} alt="PostgreSQL" />
-            <img src={skillSet.Node} alt="Node" />
+            <img src={skillSet['Node.js']} alt="Node.js" />
+            <img src={skillSet['Express.js']} alt="Express.js" />
           </section>
           <p>Join Brain Busters' Quiz Questionnaire and test your knowledge with our user-friendly web app. Can you achieve a perfect score of 100%? Start your exciting learning journey now!</p>
           <section className="buttons">
