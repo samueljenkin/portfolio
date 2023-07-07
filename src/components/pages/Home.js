@@ -13,7 +13,7 @@ import './Home.css'
 const links = [
   { name: 'LinkedIn', path: 'https://www.linkedin.com/in/samueljenkin/' },
   { name: 'GitHub', path: 'https://github.com/samueljenkin' },
-  { name: 'Resume', path: 'https://drive.google.com/file/d/1Aw7vwVpDUclKyeNRPqnt6jeN2R0fWam8/view?usp=sharing' },
+  { name: 'Resume', path: 'https://drive.google.com/file/d/1aC2g0xOiaJ7e6L6vXozcSDEELOQRYo1b/view?usp=sharing' },
   { name: 'Video Profile', path: 'https://www.youtube.com/watch?v=ZKfU_1qYeso'}
 ];
 

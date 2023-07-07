@@ -25,7 +25,7 @@ const skillSet = {
   Python,
   PostgreSQL, 
   'Node.js': Node, 
-  'Express.js': Express,
+  Express,
   React, 
   Flask, 
   GitHub, 

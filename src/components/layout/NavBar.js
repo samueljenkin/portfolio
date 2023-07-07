@@ -128,7 +128,7 @@ function NavBar() {
               <Button
                 key={page.name}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block', fontFamily: 'Rokkitt' }}
+                sx={{ my: 2, color: 'white', display: 'block', fontFamily: 'Rokkitt', fontSize: '1rem' }}
                 component={Link}
                 to={page.path}
               >
