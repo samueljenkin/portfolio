@@ -13,14 +13,14 @@ const Portfolio = () => {
       <section className="project-list">
         <section className="project">
           <h2>TripWise</h2>
-          <img className="project-preview" src={projectPreviews.TripWise} alt="Tic Tac Toe" />
+          <img className="project-preview" src={projectPreviews.TripWise} alt="TripWise" />
           <section className="skill-set">
             <img src={skillSet.HTML5} alt="HTML5" />
             <img src={skillSet.CSS} alt="CSS" />
             <img src={skillSet.JavaScript} alt="JavaScript" />
             <img src={skillSet.PostgreSQL} alt="PostgreSQL" />
             <img src={skillSet['Node.js']} alt="Node.js" />
-            <img src={skillSet.Express} alt="Express.js" />
+            <img src={skillSet.Express} alt="Express" />
             <img src={skillSet.React} alt="React" />
           </section>
           <p>Discover attractions based on your location, time, and budget with TripWise. Effortlessly view and organise your saved trips for a memorable holiday experience. It's the perfect app for a budget-friendly and exciting getaway.</p>
@@ -52,7 +52,7 @@ const Portfolio = () => {
                 }
               }}
             >
-              Live Site
+              Live App
             </Button>
           </section>
         </section>
@@ -66,7 +66,7 @@ const Portfolio = () => {
             <img src={skillSet.JavaScript} alt="JavaScript" />
             <img src={skillSet.PostgreSQL} alt="PostgreSQL" />
             <img src={skillSet['Node.js']} alt="Node.js" />
-            <img src={skillSet.Express} alt="Express.js" />
+            <img src={skillSet.Express} alt="Express" />
           </section>
           <p>Join Brain Busters' Quiz Questionnaire and test your knowledge with our user-friendly web app. Can you achieve a perfect score of 100%? Start your exciting learning journey now!</p>
           <section className="buttons">
@@ -97,7 +97,7 @@ const Portfolio = () => {
                 }
               }}
             >
-              Live Site
+              Live App
             </Button>
           </section>
         </section>
@@ -141,7 +141,7 @@ const Portfolio = () => {
                 }
               }}
             >
-              Live Site
+              Live App
             </Button>
           </section>
         </section>
