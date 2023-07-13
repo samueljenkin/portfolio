@@ -7,7 +7,7 @@ import Stack from '@mui/material/Stack';
 import LaunchIcon from '@mui/icons-material/Launch';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import DefaultLayout from "../layout/DefaultLayout";
-import headshot from '../../images/me/headshot.jpg'
+import headshot from '../../images/me/headshot.png'
 import './Home.css'
 
 const links = [
