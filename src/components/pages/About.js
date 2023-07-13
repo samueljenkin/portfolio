@@ -16,7 +16,7 @@ const About = () => {
             I am someone who is passionate about finding solutions to complex challenges. I thrive on taking ideas from conception to completion, using my strong problem-solving skills to overcome obstacles along the way. My friendly and outgoing personality, along with my effective communication and teamwork abilities, make me a reliable and collaborative member of any team.
           </p>
           <p>
-            I have a unique perspective formed through many customer service and hospitality roles which allowed me to engage with people from all walks of life. My experiences allow me to bring fresh insights to the projects I work on. I am dedicated to delivering results and am always eager to learn and improve. If you're looking for someone who is enthusiastic, hardworking, and can bring a creative approach to your organisation, I am confident that I can be a valuable addition to your team.
+            I have a unique perspective formed through many customer service and hospitality roles which allowed me to engage with people from all walks of life. My experiences allow me to bring fresh insights to the projects I work on. I am dedicated to delivering results and am always eager to learn and improve. If you're looking for someone who is enthusiastic, hardworking and can bring a creative approach to your organisation, I am confident that I can be a valuable addition to your team.
           </p>
         </section>
       </section>
@@ -41,7 +41,7 @@ const About = () => {
               <span class="material-symbols-outlined">landscape</span> 
               <h3>Great Outdoors</h3>
             </section> 
-            <p>I enjoy a range of outdoor activities such as hiking, camping, swimming, snowboarding, and rock climbing. These pursuits allow me to connect with nature and challenge myself physically while experiencing the beauty of the outdoors.</p>
+            <p>I enjoy a range of outdoor activities such as hiking, camping, swimming, snowboarding and rock climbing. These pursuits allow me to connect with nature and challenge myself physically while experiencing the beauty of the outdoors.</p>
           </section>
           <section className="interest">
             <section className="heading">
@@ -62,7 +62,7 @@ const About = () => {
               <span class="material-symbols-outlined">flight</span> 
               <h3>Travel</h3>
             </section> 
-            <p>I have a deep love for travel, exploring both Australia and the world. It provides me with opportunities to immerse myself in different cultures, broaden my horizons, and create lasting memories.</p>
+            <p>I have a deep love for travel, exploring both Australia and the world. It provides me with opportunities to immerse myself in different cultures, broaden my horizons and create lasting memories.</p>
           </section>
           <section className="interest">
             <section className="heading">

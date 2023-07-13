@@ -23,7 +23,7 @@ const Portfolio = () => {
             <img src={skillSet.Express} alt="Express" />
             <img src={skillSet.React} alt="React" />
           </section>
-          <p>Discover attractions based on your location, time, and budget with TripWise. Effortlessly view and organise your saved trips for a memorable holiday experience. It's the perfect app for a budget-friendly and exciting getaway.</p>
+          <p>Discover attractions based on your location, time and budget with TripWise. Effortlessly view and organise your saved trips for a memorable holiday experience. It's the perfect app for a budget-friendly and exciting getaway.</p>
           <section className="buttons">
             <Button
               fullWidth
@@ -103,8 +103,8 @@ const Portfolio = () => {
         </section>
 
         <section className="project">
-          <h2>CareerHive</h2>
-          <img className="project-preview" src={projectPreviews.CareerHive} alt="CareerHive" />
+          <h2>StingSearch</h2>
+          <img className="project-preview" src={projectPreviews.StingSearch} alt="StingSearch" />
           <section className="skill-set">
             <img src={skillSet.HTML5} alt="HTML5" />
             <img src={skillSet.CSS} alt="CSS" />
@@ -112,7 +112,7 @@ const Portfolio = () => {
             <img src={skillSet.PostgreSQL} alt="PostgreSQL" />
             <img src={skillSet.Flask} alt="Flask" />
           </section>
-          <p>Discover your dream job at CareerHive! This user-friendly platform offers advanced search options based on title, location, type, and salary. Track your progress with viewed, applied, and saved jobs. Unlock limitless career possibilities today!</p>
+          <p>Discover your dream job at StingSearch! This user-friendly platform offers advanced search options based on title, location, type and salary. Track your progress with viewed, applied and saved jobs. Unlock limitless career possibilities today!</p>
           <section className="buttons">
             <Button
               fullWidth
@@ -154,7 +154,7 @@ const Portfolio = () => {
             <img src={skillSet.CSS} alt="CSS" />
             <img src={skillSet.JavaScript} alt="JavaScript" />
           </section>
-          <p>Welcome to my revamped version of Tic Tac Toe! Enjoy personalised names, sleek design, and keep track of rounds and scores for an enhanced gaming experience. Grab a friend and let the fun begin!</p>
+          <p>Welcome to my revamped version of Tic Tac Toe! Enjoy personalised names, sleek design and keep track of rounds and scores for an enhanced gaming experience. Grab a friend and let the fun begin!</p>
           <section className="buttons">
             <Button
               fullWidth

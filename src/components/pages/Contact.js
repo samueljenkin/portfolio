@@ -55,7 +55,7 @@ const Contact = () => {
             <br /><br />
             Thank you for reaching out and sending your message! I appreciate your interest and wanted to express my gratitude for your time and effort. I will review your message carefully and get back to you promptly. If you have any further questions or need additional information, please feel free to let me know. 
             <br /><br />
-            Thank you again for your message, and I look forward to connecting with you further.
+            Thank you again for your message, I look forward to connecting with you further!
             <br /><br />
             Best regards,
             <br /><br />

@@ -14,7 +14,7 @@ import Git from './images/skillSetLogos/Git.png'
 
 // projectPreviews
 import TicTacToe from './images/projectPreviews/Tic-Tac-Toe.png'
-import CareerHive from './images/projectPreviews/CareerHive.png'
+import StingSearch from './images/projectPreviews/StingSearch.png'
 import BrainBusters from './images/projectPreviews/Brain_Busters.png'
 import TripWise from './images/projectPreviews/TripWise.png'
 
@@ -35,7 +35,7 @@ const skillSet = {
 }
 const skillSetNames = Object.keys(skillSet)
 
-const projectPreviews = { TicTacToe, CareerHive, BrainBusters, TripWise }
+const projectPreviews = { TicTacToe, StingSearch, BrainBusters, TripWise }
 
 // export
 export { skillSet, skillSetNames, projectPreviews }
