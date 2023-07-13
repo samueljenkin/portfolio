@@ -44,7 +44,7 @@ const Portfolio = () => {
               fullWidth
               variant="contained"
               endIcon={<LaunchIcon />}
-              onClick={() => openLink('https://holiday-app.onrender.com')}
+              onClick={() => openLink('https://tripwise-app.onrender.com/')}
               sx={{
                 backgroundColor: '#156064',
                 '&:hover': {
@@ -89,7 +89,7 @@ const Portfolio = () => {
               fullWidth
               variant="contained"
               endIcon={<LaunchIcon />}
-              onClick={() => openLink('https://quiz-app-zshl.onrender.com')}
+              onClick={() => openLink('https://brain-busters-app.onrender.com/')}
               sx={{
                 backgroundColor: '#156064',
                 '&:hover': {
@@ -125,7 +125,7 @@ const Portfolio = () => {
               }}
               variant="contained"
               endIcon={<LaunchIcon />}
-              onClick={() => openLink('https://github.com/samueljenkin/CareerHive')}
+              onClick={() => openLink('https://github.com/samueljenkin/StingSearch')}
             >
               GitHub
             </Button>
@@ -133,7 +133,7 @@ const Portfolio = () => {
               fullWidth
               variant="contained"
               endIcon={<LaunchIcon />}
-              onClick={() => openLink('https://careerhive-6o23.onrender.com')}
+              onClick={() => openLink('https://stingsearch-app.onrender.com/')}
               sx={{
                 backgroundColor: '#156064',
                 '&:hover': {
