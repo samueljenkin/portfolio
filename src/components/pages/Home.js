@@ -55,7 +55,7 @@ const Home = () => {
           <Button
             variant="contained"
             component={Link}
-            to='/contact'
+            to='/portfolio/contact'
             sx={{
               backgroundColor: '#156064',
               '&:hover': {
