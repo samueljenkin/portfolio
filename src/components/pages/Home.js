@@ -14,7 +14,7 @@ const links = [
   { name: 'LinkedIn', path: 'https://www.linkedin.com/in/samueljenkin/' },
   { name: 'GitHub', path: 'https://github.com/samueljenkin' },
   { name: 'Resume', path: 'https://drive.google.com/file/d/1kRSHgxxyfNEodShGV7FMaQb-GC_J0YKN/view' },
-  { name: 'Video Profile', path: 'https://www.youtube.com/watch?v=WPMcLbdODNE'}
+  { name: 'Meet Me', path: 'https://www.youtube.com/watch?v=WPMcLbdODNE'}
 ];
 
 const Home = () => {
